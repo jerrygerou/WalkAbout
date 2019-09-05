@@ -14,6 +14,10 @@
 		CDAFC751231F232F003DC5C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAFC74F231F232F003DC5C8 /* LaunchScreen.storyboard */; };
 		CDAFC75C231F232F003DC5C8 /* WalkAboutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFC75B231F232F003DC5C8 /* WalkAboutTests.swift */; };
 		CDAFC767231F232F003DC5C8 /* WalkAboutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFC766231F232F003DC5C8 /* WalkAboutUITests.swift */; };
+		CDD7FAAC2321A3FA00DA0DCF /* stick_man2.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD7FAA82321A3FA00DA0DCF /* stick_man2.png */; };
+		CDD7FAAD2321A3FA00DA0DCF /* stick_man3.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD7FAA92321A3FA00DA0DCF /* stick_man3.png */; };
+		CDD7FAAE2321A3FA00DA0DCF /* stick_man1.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD7FAAA2321A3FA00DA0DCF /* stick_man1.png */; };
+		CDD7FAB12321A46F00DA0DCF /* stick_man4.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD7FAB02321A46F00DA0DCF /* stick_man4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		CDAFC762231F232F003DC5C8 /* WalkAboutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkAboutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAFC766231F232F003DC5C8 /* WalkAboutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkAboutUITests.swift; sourceTree = "<group>"; };
 		CDAFC768231F232F003DC5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD7FAA82321A3FA00DA0DCF /* stick_man2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stick_man2.png; path = "../../../../Library/Mobile Documents/XXKJ396S2Y~com~autodesk~SketchBookPro/Documents/stick_man2.png"; sourceTree = "<group>"; };
+		CDD7FAA92321A3FA00DA0DCF /* stick_man3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stick_man3.png; path = "../../../../Library/Mobile Documents/XXKJ396S2Y~com~autodesk~SketchBookPro/Documents/stick_man3.png"; sourceTree = "<group>"; };
+		CDD7FAAA2321A3FA00DA0DCF /* stick_man1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stick_man1.png; path = "../../../../Library/Mobile Documents/XXKJ396S2Y~com~autodesk~SketchBookPro/Documents/stick_man1.png"; sourceTree = "<group>"; };
+		CDD7FAB02321A46F00DA0DCF /* stick_man4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stick_man4.png; path = "../../../../Library/Mobile Documents/XXKJ396S2Y~com~autodesk~SketchBookPro/Documents/stick_man4.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 		CDAFC745231F232E003DC5C8 /* WalkAbout */ = {
 			isa = PBXGroup;
 			children = (
+				CDD7FAAA2321A3FA00DA0DCF /* stick_man1.png */,
+				CDD7FAA82321A3FA00DA0DCF /* stick_man2.png */,
+				CDD7FAA92321A3FA00DA0DCF /* stick_man3.png */,
+				CDD7FAB02321A46F00DA0DCF /* stick_man4.png */,
 				CDAFC746231F232E003DC5C8 /* AppDelegate.swift */,
 				CDAFC748231F232E003DC5C8 /* ViewController.swift */,
 				CDAFC74A231F232E003DC5C8 /* Main.storyboard */,
@@ -229,9 +241,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD7FAAD2321A3FA00DA0DCF /* stick_man3.png in Resources */,
+				CDD7FAAC2321A3FA00DA0DCF /* stick_man2.png in Resources */,
+				CDD7FAB12321A46F00DA0DCF /* stick_man4.png in Resources */,
 				CDAFC751231F232F003DC5C8 /* LaunchScreen.storyboard in Resources */,
 				CDAFC74E231F232F003DC5C8 /* Assets.xcassets in Resources */,
 				CDAFC74C231F232E003DC5C8 /* Main.storyboard in Resources */,
+				CDD7FAAE2321A3FA00DA0DCF /* stick_man1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
