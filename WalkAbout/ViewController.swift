@@ -11,6 +11,15 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
+    
+    @IBAction func pressButton(_ sender: Any) {
+        imageView.startAnimating()
+    }
+    
+    @IBAction func stopButton(_ sender: Any) {
+        imageView.stopAnimating()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,7 +34,7 @@ class ViewController: UIViewController {
         
         imageView.animationImages = images
         imageView.animationDuration = 0.75
-        imageView.startAnimating()
+        
     }
 
 
